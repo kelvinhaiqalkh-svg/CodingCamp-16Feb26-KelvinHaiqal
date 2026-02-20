@@ -23,6 +23,11 @@ h1 {
     gap: 10px;
     margin-bottom: 15px;
 }
+.action-section {
+    display: flex;
+    gap: 35vh;
+    margin-bottom: 15px;
+}
 input {
     flex: 1;
     padding: 8px;
@@ -30,3 +35,21 @@ input {
     border: none;
     background: #ffffff
 }
+button {
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px
+}
+th,td {
+    border: 1px solid #ffffff;
+    text-align: center;
+    padding: 10px
+}
+.completed {
+    text-decoration: line-through;
+    color: gray;
